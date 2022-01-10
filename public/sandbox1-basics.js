@@ -82,3 +82,4 @@ mixed1.push(false);
 let obj1;
 obj1 = { name: 'yosh', age: 24 };
 obj1 = { name: 24, age: 'yosh' };
+//...TO BE CONTINUED IN SECOND FILE.

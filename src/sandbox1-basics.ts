@@ -102,13 +102,4 @@ let obj1:{name:any, age:any};
 obj1 = {name:'yosh',age:24};
 obj1 = {name:24,age:'yosh'};
 
-//In Typescript, when we return values from functions to any variable, the variable is automatically assigned the 
-//specific type from the returned value.
-let minus = (a:number, b:number) =>{
-    return a+b;
-}
-let num = minus(10,15); //if you hover mouse over num, you will see type number
-//we cannot do num = 'some string';
-//Although we can explicitly mention the return type of a function, but typescript automatically does that so not needed
-//If needed, const minus = (a:number, b:number):number =>{...}
-//If function does not return anything, it returns void
+//...TO BE CONTINUED IN SECOND FILE.
